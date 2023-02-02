@@ -1,28 +1,24 @@
-# Praktikum-5
-## Program menampilkan daftar nilai
+print("###############################################################")
+print("|                     Program Input Nilai                     |")
+print("###############################################################")
 
+data = {}
 
-### Menu "Keluar"
-Untuk berhenti menggunakan program
+while True:
+    print("\n")
+    menu = input("(L) Lihat, (T) Tambah, (U) Ubah, (H) Hapus, (C) Cari, (K) Keluar: ")
+    print("\n")
 
-```python
+    # Keluar
     if menu.lower() == 'k':
         break
-```
 
-
-![keluar](gambar/keluar.PNG)<br>
-
-
-### Menu "lihat"
-Untuk melihat data hasil inputan
-
-```python
+    # Lihat
     elif menu.lower() == 'l':
         print("Daftar Nilai:")
         print("_______________________")
         print("| No |      Nama      |    NIM    | Tugas |  UTS  |  UAS  | Akhir |")
-        print("===================================================================")
+        print("======================================N=============================")
         no = 1
         for tabel in data.values():
             print("| {0:2} | {1:14} | {2:9} | {3:5} | {4:5} | {5:5} | {6:5} |".format
@@ -30,17 +26,8 @@ Untuk melihat data hasil inputan
                    tabel[1], tabel[2],
                    tabel[3], tabel[4], tabel[5]))
             no += 1
-```
 
-
-![lihat]](gambar/lihat.PNG)<br>
-
-
-
-### Menu "Tambah"
-Untuk menambahkan data yang akan diinputkan
-
-```python
+    # Tambah
     elif menu.lower() == 't':
         print("Masukan data mahasiswa")
         print("...")
@@ -49,7 +36,7 @@ Untuk menambahkan data yang akan diinputkan
         nilai_tugas = int(input("Masukan nilai tugas: "))
         nilai_uts = int(input("Masukan nilai UTS: "))
         nilai_uas = int(input("Masukan nilai UAS: "))
-        nilai_akhir = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100 
+        nilai_akhir = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100
         data[nama] = [nama, nim, nilai_tugas, nilai_uts, nilai_uas, nilai_akhir]
         print('\nData berhasil di tambah!')
         print("_______________________")
@@ -62,19 +49,8 @@ Untuk menambahkan data yang akan diinputkan
                    tabel[1], tabel[2],
                    tabel[3], tabel[4], tabel[5]))
             no += 1
-```
 
-
-Berikut adalah tampilan outputnya;
-![tambah](gambar/tambah.PNG)<br>
-
-
-
-### Menu "Ubah"
-Untuk merubah data yang sudah diinputkan
-
-
-```python
+    # Ubah
     elif menu.lower() == 'u':
         nama = input("Masukan nama untuk mengubah data: ")
         if nama in data.keys():
@@ -89,7 +65,7 @@ Untuk merubah data yang sudah diinputkan
                 data[nama][2] = int(input("Ubah Nilai Tugas: "))
                 data[nama][3] = int(input("Ubah Nilai UTS: "))
                 data[nama][4] = int(input("Ubah Nilai UAS: "))
-                data[nama][5] = data[nama][2] *30/100 + data[nama][3]*35/100 + data[nama][4] *35/100 
+                data[nama][5] = data[nama][2] *30/100 + data[nama][3]*35/100 + data[nama][4] *35/100
                 print("\nBerhasil ubah data!")
                 print("_______________________")
                 print("| No |      Nama      |    NIM    | Tugas |  UTS  |  UAS  | Akhir |")
@@ -118,18 +94,9 @@ Untuk merubah data yang sudah diinputkan
 
         else:
             print("'{}' tidak ditemukan.".format(nama))
-```
 
-
-Berikut adalah tampilan outputnya;
-![ubah](gambar/ubah9.PNG)<br>
-
-
-### Membuat Pintasan "Cari"
-Untuk memudahkan kita mencari data yang kita inginkan di dalam database
-
-```python
- elif menu.lower() == 'c':
+    # Cari
+    elif menu.lower() == 'c':
         print("Mencari data: ")
         print("=================================================")
         nama = input("Masukan nama untuk mencari data: ")
@@ -141,17 +108,8 @@ Untuk memudahkan kita mencari data yang kita inginkan di dalam database
                                 data[nama][4], data[nama][5]))
         else:
             print("'{}' tidak ditemukan.".format(nama))
-```
 
-
-Berikut adalah tampilan outputnya;
-![cari](gambar/cari.PNG)<br>
-
-
-### Membuat Pintasan "Hapus"
-Pintasan "hapus" ini berfungsi untuk menghapus data yang ada di dalam database
-
-```python
+    # Hapus
     elif menu.lower() == 'h':
         nama = input("Masukan nama untuk menghapus sub_data : ")
         if nama in data.keys():
@@ -162,16 +120,3 @@ Pintasan "hapus" ini berfungsi untuk menghapus data yang ada di dalam database
 
     else:
         print("Upss ada yang salah, silahkan cek kembali.")
-```
-
-
-Berikut adalah tampilan outputnya;
-![hapus](gambar/hapus.PNG)<br>
-
-
-### Hasil Akhir
-
-Pada pertemuan kali ini hasil akhir atau tampilan output yang diminta oleh bapak/ibu dosen pada praktikum 5 adalah sebagai berikut
-
-Berikut adalah tampilan outputnya;
-![run](gambar/run.PNG)<br>
