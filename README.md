@@ -11,7 +11,7 @@ Untuk berhenti menggunakan program
 ```
 
 
-![keluar](gambar/keluar.PNG)<br>
+![keluar](gambar/keluar.png)<br>
 
 
 ### Menu "lihat"
@@ -33,7 +33,7 @@ Untuk melihat data hasil inputan
 ```
 
 
-![lihat]](gambar/lihat.PNG)<br>
+![lihat]](gambar/lihat.png)<br>
 
 
 
@@ -66,7 +66,7 @@ Untuk menambahkan data yang akan diinputkan
 
 
 Berikut adalah tampilan outputnya;
-![tambah](gambar/tambah.PNG)<br>
+![tambah](gambar/tambah.png)<br>
 
 
 
@@ -122,7 +122,7 @@ Untuk merubah data yang sudah diinputkan
 
 
 Berikut adalah tampilan outputnya;
-![ubah](gambar/ubah9.PNG)<br>
+![ubah](gambar/ubah.png)<br>
 
 
 ### Membuat Pintasan "Cari"
@@ -145,7 +145,7 @@ Untuk memudahkan kita mencari data yang kita inginkan di dalam database
 
 
 Berikut adalah tampilan outputnya;
-![cari](gambar/cari.PNG)<br>
+![cari](gambar/cari.png)<br>
 
 
 ### Membuat Pintasan "Hapus"
@@ -166,7 +166,7 @@ Pintasan "hapus" ini berfungsi untuk menghapus data yang ada di dalam database
 
 
 Berikut adalah tampilan outputnya;
-![hapus](gambar/hapus.PNG)<br>
+![hapus](gambar/hapus.png)<br>
 
 
 ### Hasil Akhir
@@ -174,4 +174,4 @@ Berikut adalah tampilan outputnya;
 Pada pertemuan kali ini hasil akhir atau tampilan output yang diminta oleh bapak/ibu dosen pada praktikum 5 adalah sebagai berikut
 
 Berikut adalah tampilan outputnya;
-![run](gambar/run.PNG)<br>
+![run](gambar/run.png)<br>
