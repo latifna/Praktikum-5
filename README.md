@@ -32,7 +32,7 @@ Untuk melihat data hasil inputan
 ```
 
 
-![lihat]](gambar/lihat.png)<br>
+![lihat]](gambar/lihatt.png)<br>
 
 
 
@@ -143,7 +143,7 @@ Untuk memudahkan kita mencari data yang kita inginkan di dalam database
 ```
 
 
-B
+
 ![cari](gambar/cari.png)<br>
 
 
@@ -168,9 +168,8 @@ Pintasan "hapus" ini berfungsi untuk menghapus data yang ada di dalam database
 ![hapus](gambar/hapus.png)<br>
 
 
-### Hasil Akhir
+### Output program
 
-Pada pertemuan kali ini hasil akhir atau tampilan output yang diminta oleh bapak/ibu dosen pada praktikum 5 adalah sebagai berikut
 
 
 ![run](gambar/run.png)<br>
