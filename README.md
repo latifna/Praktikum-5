@@ -10,7 +10,7 @@ Untuk berhenti menggunakan program
         break
 ```
 
-
+Berikut adalah tampilan outputnya
 ![keluar](gambar/keluar.png)<br>
 
 
@@ -65,7 +65,7 @@ Untuk menambahkan data yang akan diinputkan
 ```
 
 
-Berikut adalah tampilan outputnya;
+
 ![tambah](gambar/tambah.png)<br>
 
 
@@ -121,7 +121,7 @@ Untuk merubah data yang sudah diinputkan
 ```
 
 
-Berikut adalah tampilan outputnya;
+
 ![ubah](gambar/ubah.png)<br>
 
 
@@ -144,7 +144,7 @@ Untuk memudahkan kita mencari data yang kita inginkan di dalam database
 ```
 
 
-Berikut adalah tampilan outputnya;
+B
 ![cari](gambar/cari.png)<br>
 
 
@@ -165,7 +165,7 @@ Pintasan "hapus" ini berfungsi untuk menghapus data yang ada di dalam database
 ```
 
 
-Berikut adalah tampilan outputnya;
+
 ![hapus](gambar/hapus.png)<br>
 
 
@@ -173,5 +173,5 @@ Berikut adalah tampilan outputnya;
 
 Pada pertemuan kali ini hasil akhir atau tampilan output yang diminta oleh bapak/ibu dosen pada praktikum 5 adalah sebagai berikut
 
-Berikut adalah tampilan outputnya;
+
 ![run](gambar/run.png)<br>
