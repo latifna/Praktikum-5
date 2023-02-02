@@ -10,7 +10,6 @@ Untuk berhenti menggunakan program
         break
 ```
 
-Berikut adalah tampilan outputnya
 ![keluar](gambar/keluar.png)<br>
 
 
