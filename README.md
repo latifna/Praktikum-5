@@ -31,9 +31,7 @@ Untuk melihat data hasil inputan
             no += 1
 ```
 
-
-![lihat]](gambar/lihatt.png)<br>
-
+![lihat](gambar/lihat.png)
 
 
 ### Menu "Tambah"
