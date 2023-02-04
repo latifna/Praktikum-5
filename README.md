@@ -174,4 +174,4 @@ Pintasan "hapus" ini berfungsi untuk menghapus data yang ada di dalam database
 
 ### Flowchart
 
-![flowchar](gambar.flowchart.jpg)
+![flowchar](gambar/flowchart.jpg)
